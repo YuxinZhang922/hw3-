@@ -1,7 +1,4 @@
 class EntriesController < ApplicationController
-  def index
-    @entriess = Entry.all
-  end
 
   def new
     @entry = Entry.new
